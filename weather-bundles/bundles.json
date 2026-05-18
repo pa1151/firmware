@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "schema_version": 1,
+  "repo_path": "weather-bundles",
+  "manifest_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/manifest.json",
+  "bundles": [
+    {
+      "name": "cartoon",
+      "display_name": "Cartoon",
+      "description": "Illustrated cartoon-style weather backgrounds",
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/cartoon",
+      "bundle_manifest_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/cartoon/manifest.json",
+      "files": [
+        "sunny.jpg",
+        "partly_cloudy.jpg",
+        "cloudy.jpg",
+        "foggy.jpg",
+        "rainy.jpg",
+        "snowy.jpg",
+        "thunderstorm.jpg",
+        "night_clear.jpg",
+        "night_cloudy.jpg",
+        "digits.jpg"
+      ]
+    },
+    {
+      "name": "realistic",
+      "display_name": "Realistic",
+      "description": "Photorealistic weather backgrounds",
+      "version": "1.0.0",
+      "download_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/realistic",
+      "bundle_manifest_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/realistic/manifest.json",
+      "files": [
+        "sunny.jpg",
+        "partly_cloudy.jpg",
+        "cloudy.jpg",
+        "foggy.jpg",
+        "rainy.jpg",
+        "snowy.jpg",
+        "thunderstorm.jpg",
+        "night_clear.jpg",
+        "night_cloudy.jpg",
+        "digits.jpg"
+      ]
+    }
+  ]
+}

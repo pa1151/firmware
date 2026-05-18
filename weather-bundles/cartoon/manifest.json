@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "bundle_name": "cartoon",
+  "display_name": "Cartoon",
+  "description": "Illustrated cartoon-style weather backgrounds",
+  "version": "1.0.0",
+  "mapping_reference": "../WMO_MAPPING.md",
+  "base_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/cartoon",
+  "required_runtime_files": [
+    "sunny.jpg",
+    "partly_cloudy.jpg",
+    "cloudy.jpg",
+    "foggy.jpg",
+    "rainy.jpg",
+    "snowy.jpg",
+    "thunderstorm.jpg",
+    "night_clear.jpg",
+    "night_cloudy.jpg",
+    "digits.jpg"
+  ],
+  "slot_coverage": [
+    { "slot": "clear", "day_file": "sunny.jpg", "night_file": "night_clear.jpg" },
+    { "slot": "partly_cloudy", "day_file": "partly_cloudy.jpg", "night_file": "night_cloudy.jpg" },
+    { "slot": "overcast", "day_file": "cloudy.jpg", "night_file": "night_cloudy.jpg" },
+    { "slot": "fog", "day_file": "foggy.jpg", "night_file": "foggy.jpg" },
+    { "slot": "rain", "day_file": "rainy.jpg", "night_file": "rainy.jpg" },
+    { "slot": "snow", "day_file": "snowy.jpg", "night_file": "snowy.jpg" },
+    { "slot": "thunderstorm", "day_file": "thunderstorm.jpg", "night_file": "thunderstorm.jpg" }
+  ],
+  "assets": [
+    { "path": "sunny.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "partly_cloudy.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "cloudy.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "foggy.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "rainy.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "snowy.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "thunderstorm.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "night_clear.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "night_cloudy.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
+    { "path": "digits.jpg", "role": "digits", "size_bytes": 3757, "sha256": "9f1b658f3c71f33548a141833c269052c3d890947e6cf5ac478b9107360db3b4" }
+  ]
+}
