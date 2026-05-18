@@ -2,9 +2,7 @@
   "schema_version": 1,
   "bundle_name": "realistic",
   "display_name": "Realistic",
-  "description": "Photorealistic weather backgrounds",
-  "version": "1.0.0",
-  "mapping_reference": "../WMO_MAPPING.md",
+  "version": "1.0.1",
   "base_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/realistic",
   "required_runtime_files": [
     "sunny.jpg",
@@ -17,26 +15,5 @@
     "night_clear.jpg",
     "night_cloudy.jpg",
     "digits.jpg"
-  ],
-  "slot_coverage": [
-    { "slot": "clear", "day_file": "sunny.jpg", "night_file": "night_clear.jpg" },
-    { "slot": "partly_cloudy", "day_file": "partly_cloudy.jpg", "night_file": "night_cloudy.jpg" },
-    { "slot": "overcast", "day_file": "cloudy.jpg", "night_file": "night_cloudy.jpg" },
-    { "slot": "fog", "day_file": "foggy.jpg", "night_file": "foggy.jpg" },
-    { "slot": "rain", "day_file": "rainy.jpg", "night_file": "rainy.jpg" },
-    { "slot": "snow", "day_file": "snowy.jpg", "night_file": "snowy.jpg" },
-    { "slot": "thunderstorm", "day_file": "thunderstorm.jpg", "night_file": "thunderstorm.jpg" }
-  ],
-  "assets": [
-    { "path": "sunny.jpg", "role": "background", "size_bytes": 22174, "sha256": "cc994dd574608333845650ec29f9b75cf37fb828e995cb51b491a112a632f653" },
-    { "path": "partly_cloudy.jpg", "role": "background", "size_bytes": 28345, "sha256": "104ce47c57bfd5ce00c5f12b6d3241ac6f3a3e915e625189893468ed590dac9a" },
-    { "path": "cloudy.jpg", "role": "background", "size_bytes": 12681, "sha256": "c546f571e0e04865bdb6436a71248d4d8c7b32b126675147778cc9d8066cbecb" },
-    { "path": "foggy.jpg", "role": "background", "size_bytes": 14374, "sha256": "bc966e6a32a4bd42cf831e7b1219798b61ae30ed87ee92316d6496336b3a52ba" },
-    { "path": "rainy.jpg", "role": "background", "size_bytes": 20140, "sha256": "def65659ed851416eef3dffbc1cc1e96290ca0f5e80de5c48db3c1f7f605b4b4" },
-    { "path": "snowy.jpg", "role": "background", "size_bytes": 16929, "sha256": "65644bc12c8433fb19cedab4cf2d569cf1ecea8f95acf1f618a3bc8927b797bb" },
-    { "path": "thunderstorm.jpg", "role": "background", "size_bytes": 16765, "sha256": "b2118d821f50432c2dc75a47b80c6f7c14b1da125f05b04b4f6497606d873bec" },
-    { "path": "night_clear.jpg", "role": "background", "size_bytes": 6176, "sha256": "a97c6f44f959272971ba5d52328cdf6a7089b8ab199fbd1176cb78ff9db859c2" },
-    { "path": "night_cloudy.jpg", "role": "background", "size_bytes": 13900, "sha256": "3f709a501a6ff48e122d314e546ce964182b9e5e59332ff0bb580328a56c77fa" },
-    { "path": "digits.jpg", "role": "digits", "size_bytes": 13135, "sha256": "093e686a1fbf0fce18fc4f5c0a6d53a63dc36eca2a2607adaeb0be97215a0a29" }
   ]
 }
