@@ -3,7 +3,7 @@
   "bundle_name": "cartoon",
   "display_name": "Cartoon",
   "version": "1.0.1",
-  "base_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/realistic",
+  "base_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/cartoon",
   "required_runtime_files": [
     "sunny.jpg",
     "partly_cloudy.jpg",

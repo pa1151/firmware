@@ -8,7 +8,7 @@
       "name": "cartoon",
       "display_name": "Cartoon",
       "description": "Illustrated cartoon-style weather backgrounds",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "download_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/cartoon",
       "bundle_manifest_url": "https://raw.githubusercontent.com/pa1151/firmware/main/weather-bundles/cartoon/manifest.json",
       "files": [
